@@ -1,35 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Library</title>
 
-  <body>
-    <footer>
-      <div class="content">
-        <div class="top">
-          <div class="logo-details">
-            <span class="logo_name">company</span>
-          </div>
-          <div class="media-icons">
-            <!-- your code here -->
-          </div>
-        </div>
-        <div class="link-boxes">
-          <!-- your code here -->
-        </div>
-      </div>
-      <div class="bottom-details">
-        <!-- your code here -->
-      </div>
-    </footer>
-  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .book-library {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .book-library h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .book {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f1f1f1;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .book img {
+      width: 180px;
+      height: 270px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .book h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+      align-self: flex-start;
+      text-transform: uppercase;
+    }
+
+    .author {
+      color: #777777;
+      margin-bottom: 15px;
+      font-size: 18px;
+      align-self: flex-start;
+    }
+
+    .price-block {
+      background-color: #2ecc71;
+      color: #ffffff;
+      padding: 12px;
+      border-radius: 4px;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="book-library">
+    <h1>Book Library</h1>
+
+    <div class="book">
+      <img
+        src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg"
+        alt="Spy in the Amber"
+      />
+
+      <h2>SPY IN THE AMBER</h2>
+
+      <p class="author">By Manohar Malgonkar</p>
+
+      <div class="price-block">Rs. 299</div>
+    </div>
+
+    <div class="book">
+      <img
+        src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg"
+        alt="Sacred Games"
+      />
+
+      <h2>Sacred Games</h2>
+
+      <p class="author">By Vikram Chandra</p>
+
+      <div class="price-block">Rs. 199</div>
+    </div>
+
+    <div class="book">
+      <img
+        src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg"
+        alt="Byomkesh Bakshi"
+      />
+
+      <h2>BYOMKESH BAKSHI</h2>
+
+      <p class="author">By Sharadindu Bandyopadhyay</p>
+
+      <div class="price-block">Rs. 249</div>
+    </div>
+
+  </div>
+
+</body>
 </html>
