@@ -1,1 +1,137 @@
 /* your code here */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+    }
+.content{
+	/* display:flex;
+	flex-direction:column; */
+	padding:40px 60px;
+	/* background-color:black;
+	color:white; */
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	/* padding:10px; */
+	margin-bottom:30px;
+}
+
+  .logo_name {
+      font-size: 48px;
+      font-weight: 500;
+    }
+/* .media-icons i{
+	margin:5px
+} */
+.media-icons{
+	 display: flex;
+      justify-content: center;
+      align-items: center;
+		/* gap:5; */
+}
+.media-icons a {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+	
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .media-icons a:nth-child(1) {
+      background-color: #4267B2;
+    }
+
+    .media-icons a:nth-child(2) {
+      background-color: #1DA1F2;
+    }
+
+    .media-icons a:nth-child(3) {
+      background-color: #E1306C;
+    }
+
+    .media-icons a:nth-child(4) {
+      background-color: #0077B5;
+    }
+
+    .media-icons a:nth-child(5) {
+      background-color: #FF0000;
+    }
+
+    .link-boxes {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .box h2 {
+      margin-bottom: 12px;
+      font-size: 19px;
+      position: relative;
+    }
+
+    .box h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 40px;
+      height: 2px;
+      background-color: white;
+    }
+
+    .box ul {
+      list-style: none;
+      margin-top: 20px;
+    }
+
+    .box ul li {
+      margin-bottom: 12px;
+    }
+
+    .box ul li a {
+      text-decoration: none;
+      color: #cccccc;
+      font-size: 12px;
+    }
+
+    .box ul li a:hover {
+      color: #ffffff;
+    }
+
+
+
+
+.bottom-details {
+      background-color: #2c2f3a;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      color: #d1d1d1;
+      font-size: 16px;
+}
+
+
+
+
+
